@@ -12,27 +12,31 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-contact-info \
+	gluon-config-mode-core \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
-	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
+	gluon-luci-wifi-config \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
+	gluon-setup-mode \
 	gluon-status-page \
 	iwinfo \
 	iptables \
+	iwinfo \
 	haveged \
 	gluon-luci-private-wifi
 
+#       gluon-luci-autoupdater \
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
 #		gluon relies on
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
-DEFAULT_GLUON_RELEASE := 0.4+0-ffmyk-exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.6+0-ffmyk-exp$(shell date '+%Y%m%d')
 
 
 ##	GLUON_RELEASE
