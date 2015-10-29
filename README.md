@@ -4,7 +4,7 @@
     cd gluon
     git clone https://github.com/freifunkmyk/site-ffmyk.git site   # Get the Freifunk Mayen-Koblenz site repository
     make update                                                    # Get other repositories used by Gluon
-    make                                                           # Build Gluon
+    make GLUON_TARGET=ar71xx-generic                               # Build Gluon
 
 Please see [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for an in-depth explanation of the build process.
 
