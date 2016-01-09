@@ -31,7 +31,7 @@ msgstr ""
 " <br/>"
 "<%= pubkey %>"
 "<h3>Beta</h3>
-"<p>For help testing the new Webpage for Node Registration pleas "
+"<p>To help testing our new system for node registration please "
 "<a href=\"https://www.ffmyk.de/node/add?mac=<%=sysconfig.primary_mac%>&amp;key=<%=pubkey%>&amp;host=<%=hostname%>\">click here</a> .</p>"
 "</div>"
 
