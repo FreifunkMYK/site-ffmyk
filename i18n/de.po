@@ -41,6 +41,7 @@ msgstr ""
 "<p>Im Rahmen der Vorbereitung unserer neuen Webseite kannst du uns beim Testen der Funktionalität helfen indem du deinen Knoten auch "
 "auf der neuen Webseite Registrierst. Hierzu foge einfach diesem "
 "<a href=\"https://www.ffmyk.de/node/add?mac=<%=sysconfig.primary_mac%>&amp;key=<%=pubkey%>&amp;host=<%=hostname%>\">Link</a>. </p>"
+"Bitte beachte, dass dieses Testsystem keinen Zugang zu den VPN-Servern ermöglicht und nur zusätzlich verwednet werden sollte"
 "</div>"
 
 msgid "gluon-config-mode:reboot"
