@@ -49,6 +49,9 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
+# Mesh-enabled firmware for ATH10K based devices
+GLUON_ATH10K_MESH ?= 11s
+
 # Region code required for some images; supported values: us eu
 GLUON_REGION ?= eu
 
