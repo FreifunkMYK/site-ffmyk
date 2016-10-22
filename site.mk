@@ -44,10 +44,10 @@ DEFAULT_GLUON_RELEASE := 0.6-ffmyk-exp$(shell date '+%Y%m%d')
 #			gluon-ff%site_code%-23.42+5-%router_model%.bin
 
 # Allow overriding the release number from the command line
-GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
+GLUON_RELEASE ?= "nightly"
 
 # Default priority for updates.
-GLUON_PRIORITY ?= 0
+GLUON_PRIORITY ?= 30
 
 # Mesh-enabled firmware for ATH10K based devices
 GLUON_ATH10K_MESH ?= 11s
