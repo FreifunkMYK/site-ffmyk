@@ -12,6 +12,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-geo-location-ffmyk \
 	gluon-config-mode-contact-info \
+	gluon-config-mode-autoupdater \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
