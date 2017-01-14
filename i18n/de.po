@@ -41,8 +41,8 @@ msgstr ""
 
 msgid "gluon-config-mode:reboot"
 msgstr ""
-"<p>Dein Knoten startet gerade neu und wird anschließend versuchen, "
-"sich mit anderen Freifunkknoten in seiner Nähe zu "
+"<p>Dein Knoten <em><%= escape(hostname) %></em> startet gerade neu und wird "
+"anschließend versuchen, sich mit anderen Freifunkknoten in seiner Nähe zu "
 "verbinden. Weitere Informationen zur "
 "Mayen-Koblenzer Freifunk-Community findest du auf "
 "<a href=\"http://www.freifunk-myk.de/\">unserer Webseite</a>.</p>"
@@ -50,3 +50,12 @@ msgstr ""
 "Betrieb für drei Sekunden den Reset-Button. Das Gerät wird dann im Config "
 "Mode neustarten.</p>"
 "<p>Viel Spaß mit deinem Knoten und der Erkundung von Freifunk!</p>"
+
+msgid "gluon-config-mode:altitude-label"
+msgstr "Höhe"
+
+msgid "gluon-config-mode:altitude-help"
+msgstr ""
+"Die Höhenangabe ist optional und sollte nur gesetzt werden, wenn ein "
+"exakter Wert bekannt ist."
+
