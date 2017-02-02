@@ -7,7 +7,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
-	gluon-autoupdater-branch-fix \
+	#gluon-autoupdater-branch-fix \
 	gluon-config-mode-core \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
