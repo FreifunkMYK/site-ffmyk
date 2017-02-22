@@ -16,18 +16,20 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-autoupdater \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-wifi-config \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-mesh-vpn-fastd \
+	gluon-web-node-role \
+	gluon-web-network \
+	gluon-web-private-wifi \
+	gluon-web-wifi-config \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged \
-	gluon-luci-private-wifi
+	haveged
 
 
 ##	DEFAULT_GLUON_RELEASE
