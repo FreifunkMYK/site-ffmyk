@@ -3,26 +3,24 @@
 ##	GLUON_SITE_PACKAGES
 #		specify gluon/openwrt packages to include here
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
 	gluon-autoupdater-branch-fix \
+	gluon-config-mode-autoupdater \
+	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
+	gluon-config-mode-geo-location-ffmyk \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
-	gluon-config-mode-geo-location-ffmyk \
-	gluon-config-mode-contact-info \
-	gluon-config-mode-autoupdater \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-web-admin \
 	gluon-web-autoupdater \
-	gluon-web-mesh-vpn-fastd \
-	gluon-web-node-role \
 	gluon-web-network \
 	gluon-web-private-wifi \
 	gluon-web-wifi-config \
+	gluon-mesh-batman-adv-15 \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
