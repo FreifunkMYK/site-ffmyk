@@ -3,7 +3,6 @@
 ##	GLUON_SITE_PACKAGES
 #		specify gluon/openwrt packages to include here
 GLUON_SITE_PACKAGES := \
-	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
 	gluon-autoupdater-branch-fix \
